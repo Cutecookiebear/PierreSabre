@@ -1,18 +1,18 @@
 package personnages;
 
 public class Humain {
-	private String nom;
-	private String boisson;
-	private int argent;
+	protected String nom;
+	protected String boisson;
+	protected int argent;
 	
 	public Humain(String nom,String boisson,int argent) {
 		this.nom = nom;
 		this.boisson = boisson;
 		this.argent = argent;
 	}
-	
-	public void parler(String texte) {
-		System.out.println(texte+"\n");
+
+	protected void parler(String texte) {
+		System.out.println("["+nom+"] : "+texte+"\n");
 	}
 	
 	public void direBonjour() {
