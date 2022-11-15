@@ -15,6 +15,7 @@ public class HistoireTP5 {
 		 Ronin roro = new Ronin("Roro", "shochu", 60);
 		 Samourai akimoto = new Samourai("Miyamoto", "Akimoto", "saké", 80);
 		 akimoto.direBonjour();
+		 akimoto.boire("thé");
          
 	}
 
